@@ -1,10 +1,9 @@
 syntax on
-filetype on
 set nu
 set ts=4
 set sw=4
-set ai
-set ci
+set autoindent
+set cindent
 
 au BufNewFile,BufRead *.cls set filetype=tex
 
