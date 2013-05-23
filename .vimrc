@@ -9,9 +9,11 @@ filetype off
 filetype plugin indent on
 
 au BufNewFile,BufRead *.cls set filetype=tex
+au BufNewFile,BufRead *.st set filetype=html
 
 autocmd FileType cpp,c :map <F9> :make %<<CR>
 autocmd FileType cpp,c :map <F8> :!./%< < %<.in<CR>
+autocmd FileType cpp,c :map <F7> :!./%< <CR>
 
 autocmd FileType java :compiler javac
 autocmd FileType java :map <F9> :make %<CR>
