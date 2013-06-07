@@ -7,11 +7,11 @@ set expandtab
 
 filetype plugin indent on
 
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+
 au BufNewFile,BufRead *.cls set filetype=tex
 au BufNewFile,BufRead *.st set filetype=html
-
-let g:indentLine_color_term = 5
-let g:indentLine_char = '¦'
 
 autocmd FileType cpp,c :map <F9> :make %<<CR>
 autocmd FileType cpp,c :map <F8> :!./%< < %<.in<CR>
