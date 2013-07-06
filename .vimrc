@@ -7,12 +7,6 @@ set expandtab
 
 filetype plugin indent on
 
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor='latex'
-let g:indentLine_color_term = 0
-let g:indentLine_char = '¦'
-let g:tex_conceal=""
-
 au BufNewFile,BufRead *.cls set filetype=tex
 au BufNewFile,BufRead *.st set filetype=html
 
