@@ -1,0 +1,14 @@
+Config { font = "xft:Bitstream Vera Sans Mono:size=9:bold:antialias=true"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , lowerOnStart = True
+       , commands = [ Run Cpu ["-p","2"] 10
+                    , Run Memory ["-p","2","-t","Mem: <usedratio>%"] 10
+                    , Run Com "date -u +'%a %b %_d %Y %H:%M:%S'"  [] "mydate" 10
+                    , Run Com "sensors | grep -n 'temp1' | sed -n 2p | awk -F'+' '{print $2}' | awk -F' ' '{print $1}'" [] "temp" 10
+                    , Run Com "fortune myfortunes" [] "fortune" 3000
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%cpu% >> %memory% >> %temp% :: %fortune% }{ <fc=#ee9a00>%mydate%</fc> >> <fc=#F0413E>Godspeed, My Fine Lady</fc>"
+       }

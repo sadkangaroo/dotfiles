@@ -1,0 +1,14 @@
+# Write your default config options here!
+subcp=enca:zh:unicode
+autosub-match=fuzzy
+af-add=scaletempo
+heartbeat-cmd="xscreensaver-command -deactivate >&- 2>&- &"
+vo=opengl,xv,
+osd-color='#88888888'
+osd-border-size=0
+screenshot-format=png
+screenshot-png-compression=9
+screenshot-template=%F-%P
+alang=jpn,ja,jp,eng,en
+no-ass-vsfilter-aspect-compat
+

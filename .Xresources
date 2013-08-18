@@ -1,0 +1,63 @@
+Xft.dpi:96
+URxvt.font:xft:PragmataPro for Powerline:style=Bold:size=13:antialias=false,xft:SimHei:size=13:antialias=true
+URxvt.italicFont:xft:PragmataPro for Powerline:style=BoldItalic:size=13:antialias=false,xft:SimHei:size=13:antialias=true
+URxvt.boldFont:xft:PragmataPro for Powerline:style=Bold:size=13:antialias=false,xft:SimHei:size=13:antialias=true
+URxvt.boldItalicFont:xft:PragmataPro for Powerline:style=BoldItalic:size=13:antialias=false,xft:SimHei:size=13:antialias=true
+
+URxvt.scrollBar:false
+URxvt*internalBorder:false
+
+! --- special colors ---
+
+*background: black
+*foreground: #c5c5c5
+
+! --- standard colors ---
+
+! black
+*color0: #0b0b0b
+
+! bright_black
+*color8: #444444
+
+! red
+*color1: #d75459
+
+! bright_red
+*color9: #f0c0c2
+
+! green
+*color2: #59d754
+
+! bright_green
+*color10: #c2f0c0
+
+! yellow
+*color3: #d7d254
+
+! bright_yellow
+*color11: #f0efc0
+
+! blue
+*color4: #5459d7
+
+! bright_blue
+*color12: #c0c2f0
+
+! magenta
+*color5: #d254d7
+
+! bright_magenta
+*color13: #efc0f0
+
+! cyan
+*color6: #54d7d2
+
+! bright_cyan
+*color14: #c0f0ef
+
+! white
+*color7: #c5c5c5
+
+! bright_white
+*color15: #eaeaea
